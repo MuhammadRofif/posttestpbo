@@ -73,7 +73,7 @@ Class utama untuk menjalankan program. Fungsinya adalah mengelola interaksi peng
 
   ![image](https://github.com/user-attachments/assets/6b5741d9-2358-4ec5-8b0e-29acc15d7d3f)
 
-- Menggunakan **ArrayList**, yand diKombinasikan dengan Perulangan (for-each)
+- Menggunakan **ArrayList**, yang di kombinasikan dengan Perulangan (for-each)
   
   ![image](https://github.com/user-attachments/assets/70a3f551-a0ed-4bde-80e2-50daada48c1b)
 
