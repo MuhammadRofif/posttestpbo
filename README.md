@@ -59,9 +59,9 @@ Class utama untuk menjalankan program. Fungsinya adalah mengelola interaksi peng
 
 - Menggunakan **ArrayList**, yand diKombinasikan dengan Perulangan (for-each)
   
-- ![image](https://github.com/user-attachments/assets/70a3f551-a0ed-4bde-80e2-50daada48c1b)
+  ![image](https://github.com/user-attachments/assets/70a3f551-a0ed-4bde-80e2-50daada48c1b)
 
-- Mengelola input pengguna melalui class `Scanner`.
+- Mengelola input pengguna melalui `scanner`.
 
   ![image](https://github.com/user-attachments/assets/045bed0a-876e-4a0d-ab20-da835bd2229d)
 
