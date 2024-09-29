@@ -34,7 +34,8 @@ src/
    ![image](https://github.com/user-attachments/assets/8efbd7cf-7907-4f48-8f43-ef15e45341b2) 
    
 1. **Menambah Tugas**
-   Pilih opsi **1. Tambah Tugas** untuk menambahkan tugas baru. Anda akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
+   Pilih opsi **1. Tambah Tugas** untuk menambahkan tugas baru. Pengguna akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
+
    - Prioritas 1: Paling tidak mendesak.
    - Prioritas 2: Lebih penting, tapi masih bisa ditunda.
    - Prioritas 3: Kepentingan menengah, perlu dikerjakan dalam waktu dekat.
@@ -49,15 +50,15 @@ src/
 
    ![image](https://github.com/user-attachments/assets/a310e89d-0bbf-4a95-863a-0d922cf3d3b4)
    
-4. **Menghapus Tugas**:
+3. **Menghapus Tugas**:
    
-   Pilih opsi **3. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Anda akan diminta memasukkan ID tugas yang ingin dihapus.
+   Pilih opsi **3. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Pengguna akan diminta memasukkan ID tugas yang ingin dihapus.
 
    ![image](https://github.com/user-attachments/assets/61238c8b-0bf4-49f8-9ee2-199ad96ed1d7)
    
-7. **Keluar dari Program**:
+4. **Keluar dari Program**:
    
-   Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan terima kasih.
+   Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan "Terima kasih telah menggunakan sistem".
 
    ![image](https://github.com/user-attachments/assets/87ed1d98-6b1b-4132-9cc0-fab24f7ec358)
 
