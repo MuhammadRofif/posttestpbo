@@ -23,7 +23,6 @@ public class Pembantu {
         System.out.println("Terima kasih telah menggunakan sistem.");
     }
 
-    // Getter dan Setter untuk properti
     public String getJudulSistem() {
         return judulSistem;
     }
