@@ -31,14 +31,19 @@ src/
 
 1. **Menambah Tugas**:
    Pilih opsi **1. Tambah Tugas** untuk menambahkan tugas baru. Anda akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
+   Prioritas 1: Paling tidak mendesak.
+   Prioritas 2: Lebih penting, tapi masih bisa ditunda.
+   Prioritas 3: Kepentingan menengah, perlu dikerjakan dalam waktu dekat.
+   Prioritas 4: Cukup mendesak, sebaiknya segera diselesaikan.
+   Prioritas 5: Paling mendesak, harus diutamakan.
 
-2. **Melihat Tugas**:
+3. **Melihat Tugas**:
    Pilih opsi **2. Lihat Tugas** untuk melihat daftar tugas yang telah ditambahkan. Setiap tugas akan ditampilkan dengan informasi ID, nama, deskripsi, dan prioritas.
 
-3. **Menghapus Tugas**:
+4. **Menghapus Tugas**:
    Pilih opsi **3. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Anda akan diminta memasukkan ID tugas yang ingin dihapus.
 
-4. **Keluar dari Program**:
+5. **Keluar dari Program**:
    Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan terima kasih.
 
 
@@ -49,9 +54,17 @@ src/
 Class utama untuk menjalankan program. Fungsinya adalah mengelola interaksi pengguna melalui menu untuk menambah, melihat, dan menghapus tugas. Berikut adalah fitur yang ada di dalam class ini:
 
 - Menggunakan **percabangan** (`switch-case`) untuk navigasi menu.
-- Menggunakan **ArrayList** untuk menyimpan daftar tugas yang dinamis.
-- Menggunakan **for-each loop** untuk menampilkan daftar tugas.
+
+  ![image](https://github.com/user-attachments/assets/6b5741d9-2358-4ec5-8b0e-29acc15d7d3f)
+
+- Menggunakan **ArrayList**, yand diKombinasikan dengan Perulangan (for-each)
+  
+- ![image](https://github.com/user-attachments/assets/70a3f551-a0ed-4bde-80e2-50daada48c1b)
+
 - Mengelola input pengguna melalui class `Scanner`.
+
+  ![image](https://github.com/user-attachments/assets/045bed0a-876e-4a0d-ab20-da835bd2229d)
+
 
 ### B. `Tugas.java`
 
