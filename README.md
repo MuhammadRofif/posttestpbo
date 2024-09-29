@@ -1,6 +1,6 @@
 # Sistem Pengelolaan Tugas Harian
 
-Program ini adalah aplikasi sederhana berbasis Java yang digunakan untuk mengelola tugas harian. Dengan aplikasi ini, pengguna dapat menambahkan tugas, melihat daftar tugas yang telah dibuat, serta menghapus tugas berdasarkan ID. Program ini dikembangkan sebagai tugas pemrograman berorientasi objek (PBO).
+Program ini adalah program sederhana berbasis Java yang digunakan untuk mengelola tugas harian. Dengan program ini, pengguna dapat menambahkan tugas, melihat daftar tugas yang telah dibuat, serta menghapus tugas berdasarkan ID.
 
 ## Fitur
 
