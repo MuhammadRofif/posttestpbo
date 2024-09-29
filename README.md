@@ -40,6 +40,7 @@ src/
    - Prioritas 3: Kepentingan menengah, perlu dikerjakan dalam waktu dekat.
    - Prioritas 4: Cukup mendesak, sebaiknya segera diselesaikan.
    - Prioritas 5: Paling mendesak, harus diutamakan.
+     
    ![image](https://github.com/user-attachments/assets/9c044d33-9d11-402c-a174-dd4706c6959f)
    
 2. **Melihat Tugas**:
@@ -98,27 +99,6 @@ Class `Pembantu` berfungsi sebagai utilitas yang menyediakan fitur mencetak judu
 - **Constructor** untuk menginisialisasi informasi sistem seperti judul, versi, dan pengembang.
 - Metode `cetakJudul()` untuk menampilkan judul sistem.
 - Metode statis `tampilkanPesanKeluar()` untuk menampilkan pesan keluar.
-
-## Screenshot Output
-1. **Tampilan Menu Utama**  
-
-   ![image](https://github.com/user-attachments/assets/8efbd7cf-7907-4f48-8f43-ef15e45341b2)
-
-2. **Menambah Tugas**
-   
-   ![image](https://github.com/user-attachments/assets/9c044d33-9d11-402c-a174-dd4706c6959f)
-
-4. **Daftar Tugas**
-    
-   ![image](https://github.com/user-attachments/assets/a310e89d-0bbf-4a95-863a-0d922cf3d3b4)
-
-6. **Menghapus Tugas**
-   
-   ![image](https://github.com/user-attachments/assets/61238c8b-0bf4-49f8-9ee2-199ad96ed1d7)
-
-7. **Mengakhiri Program**
-
-   ![image](https://github.com/user-attachments/assets/87ed1d98-6b1b-4132-9cc0-fab24f7ec358)
 
 ## Pengembang
 
