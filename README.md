@@ -1,7 +1,3 @@
-Berikut adalah tulisan lengkap **README.md** untuk program "Sistem Pengelolaan Tugas Harian":
-
----
-
 # Sistem Pengelolaan Tugas Harian
 
 Program ini adalah aplikasi sederhana berbasis Java yang digunakan untuk mengelola tugas harian. Dengan aplikasi ini, pengguna dapat menambahkan tugas, melihat daftar tugas yang telah dibuat, serta menghapus tugas berdasarkan ID. Program ini dikembangkan sebagai tugas pemrograman berorientasi objek (PBO).
@@ -31,89 +27,20 @@ src/
 - **com.pbo.sistem_pengelolaan_tugas_harian**: Berisi class `Main` dan `Tugas` sebagai komponen utama sistem.
 - **utils**: Berisi class `Pembantu` untuk mencetak informasi sistem dan menampilkan pesan keluar.
 
-## Instalasi dan Cara Penggunaan
+## Cara Penggunaan
 
-1. **Kompilasi seluruh file Java**:
-   Buka terminal, navigasi ke folder project, kemudian jalankan perintah berikut untuk kompilasi:
-   ```bash
-   javac com/pbo/sistem_pengelolaan_tugas_harian/*.java utils/*.java
-   ```
-
-2. **Jalankan program**:
-   Setelah kompilasi berhasil, jalankan program dengan perintah berikut:
-   ```bash
-   java com.pbo.sistem_pengelolaan_tugas_harian.Main
-   ```
-
-3. **Interaksi melalui Menu**:
-   Setelah program berjalan, Anda akan melihat menu seperti ini:
-   ```
-   === Sistem Pengelolaan Tugas Harian (Versi: v1.0) ===
-   Dikembangkan oleh: Rofif 2309116029
-   1. Tambah Tugas
-   2. Lihat Tugas
-   3. Hapus Tugas
-   4. Keluar
-   Pilih:
-   ```
-   Pilih opsi berdasarkan angka 1 hingga 4 untuk menggunakan fitur yang tersedia.
-
-4. **Menambah Tugas**:
+1. **Menambah Tugas**:
    Pilih opsi **1. Tambah Tugas** untuk menambahkan tugas baru. Anda akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
 
-5. **Melihat Tugas**:
+2. **Melihat Tugas**:
    Pilih opsi **2. Lihat Tugas** untuk melihat daftar tugas yang telah ditambahkan. Setiap tugas akan ditampilkan dengan informasi ID, nama, deskripsi, dan prioritas.
 
-6. **Menghapus Tugas**:
+3. **Menghapus Tugas**:
    Pilih opsi **3. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Anda akan diminta memasukkan ID tugas yang ingin dihapus.
 
-7. **Keluar dari Program**:
+4. **Keluar dari Program**:
    Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan terima kasih.
 
-## Contoh Output Program
-
-Berikut adalah contoh output program saat berjalan:
-
-### 1. Menu Utama
-
-```
-=== Sistem Pengelolaan Tugas Harian (Versi: v1.0) ===
-Dikembangkan oleh: Rofif 2309116029
-1. Tambah Tugas
-2. Lihat Tugas
-3. Hapus Tugas
-4. Keluar
-Pilih:
-```
-
-### 2. Menambah Tugas
-
-```
-Masukkan nama tugas: BelajarPBO
-Masukkan deskripsi tugas: MembacaBuku
-Masukkan prioritas tugas (1-5): 3
-Tugas berhasil ditambahkan!
-```
-
-### 3. Menampilkan Daftar Tugas
-
-```
-=== Daftar Tugas ===
-ID: 1, Nama: BelajarPBO, Deskripsi: MembacaBuku, Prioritas: 3
-```
-
-### 4. Menghapus Tugas
-
-```
-Masukkan ID tugas yang akan dihapus: 1
-Tugas dengan ID 1 berhasil dihapus.
-```
-
-### 5. Pesan Keluar
-
-```
-Terima kasih telah menggunakan sistem.
-```
 
 ## Class dan Fungsionalitas
 
@@ -145,48 +72,31 @@ Class `Pembantu` berfungsi sebagai utilitas yang menyediakan fitur mencetak judu
 - Metode `cetakJudul()` untuk menampilkan judul sistem.
 - Metode statis `tampilkanPesanKeluar()` untuk menampilkan pesan keluar.
 
-## Dependencies
-
-Program ini tidak memiliki dependensi eksternal dan dapat dijalankan di lingkungan Java standar (JDK).
-
 ## Screenshot
 
 1. **Tampilan Menu Utama**  
-   ![Menu Utama](screenshots/menu-utama.png)
 
-2. **Menambah Tugas**  
-   ![Tambah Tugas](screenshots/tambah-tugas.png)
+   ![image](https://github.com/user-attachments/assets/8efbd7cf-7907-4f48-8f43-ef15e45341b2)
 
-3. **Daftar Tugas**  
-   ![Daftar Tugas](screenshots/daftar-tugas.png)
+2. **Menambah Tugas**
+   
+   ![image](https://github.com/user-attachments/assets/9c044d33-9d11-402c-a174-dd4706c6959f)
 
-4. **Menghapus Tugas**  
-   ![Hapus Tugas](screenshots/hapus-tugas.png)
+4. **Daftar Tugas**
+    
+   ![image](https://github.com/user-attachments/assets/a310e89d-0bbf-4a95-863a-0d922cf3d3b4)
 
-> **Catatan:** Letakkan gambar hasil screenshot di folder `screenshots/` dengan nama yang sesuai.
+6. **Menghapus Tugas**
+   
+   ![image](https://github.com/user-attachments/assets/61238c8b-0bf4-49f8-9ee2-199ad96ed1d7)
+
+7. **Mengakhiri Program**
+
+   ![image](https://github.com/user-attachments/assets/87ed1d98-6b1b-4132-9cc0-fab24f7ec358)
 
 ## Pengembang
 
 Program ini dikembangkan oleh:
-- **Rofif (2309116029)**
+- **Muhammad Rofiif Taqiyyuddin Nabiil Sistem Informasi A 2023(2309116029)**
 
-## Lisensi
 
-Program ini merupakan bagian dari tugas mata kuliah Pemrograman Berorientasi Objek (PBO) dan bersifat open-source.
-```
-
---- 
-
-### Penjelasan README.md:
-1. **Pendahuluan**: Menjelaskan secara singkat tentang program dan fungsionalitasnya.
-2. **Fitur**: Merinci fitur utama dari program.
-3. **Struktur Program**: Memberikan gambaran struktur folder dan file dalam program.
-4. **Instruksi Penggunaan**: Langkah-langkah lengkap mulai dari kompilasi hingga menjalankan program, serta interaksi dengan program.
-5. **Contoh Output**: Menampilkan hasil eksekusi dari setiap fitur program.
-6. **Class dan Fungsionalitas**: Penjelasan mendetail tentang class-class yang ada di program, lengkap dengan fitur percabangan, array/ArrayList, constructor, dan method.
-7. **Dependencies**: Menyebutkan bahwa program ini tidak memiliki dependensi eksternal.
-8. **Screenshot**: Placeholder untuk screenshot yang harus diletakkan di folder `screenshots`.
-9. **Pengembang**: Informasi tentang pengembang program.
-10. **Lisensi**: Menyatakan bahwa program ini adalah bagian dari tugas kuliah dan bersifat open-source.
-
-Dengan menggunakan format ini, README.md menjadi dokumentasi yang informatif dan mudah dipahami oleh pengguna program.
