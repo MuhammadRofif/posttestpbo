@@ -10,8 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int pilihan;
-
-        // Membuat instance dari Pembantu
+        
         Pembantu pembantu = new Pembantu("Sistem Pengelolaan Tugas Harian", "v1.0", "Tim Pengembang");
 
         do {
@@ -73,7 +72,6 @@ public class Main {
             System.out.print("Masukkan ID tugas yang akan dihapus: ");
             int id = scanner.nextInt();
             
-            // Mencari tugas berdasarkan ID
             Tugas tugasUntukDihapus = null;
             for (Tugas tugas : daftarTugas) {
                 if (tugas.getId() == id) {
