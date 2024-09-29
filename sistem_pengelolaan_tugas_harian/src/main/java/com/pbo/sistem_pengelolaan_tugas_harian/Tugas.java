@@ -1,7 +1,7 @@
 package com.pbo.sistem_pengelolaan_tugas_harian;
 
 public class Tugas {
-    private static int counter = 0; // Counter untuk ID
+    private static int counter = 0; 
     private int id; // ID tugas
     private String nama;
     private String deskripsi;
@@ -9,7 +9,7 @@ public class Tugas {
 
     // Constructor
     public Tugas(String nama, String deskripsi, int prioritas) {
-        this.id = ++counter; // Mengatur ID secara otomatis
+        this.id = ++counter; 
         this.nama = nama;
         this.deskripsi = deskripsi;
         this.prioritas = prioritas;
@@ -20,7 +20,7 @@ public class Tugas {
         return "ID: " + id + ", Nama: " + nama + ", Deskripsi: " + deskripsi + ", Prioritas: " + prioritas;
     }
 
-    // Getter dan Setter
+
     public int getId() {
         return id;
     }
