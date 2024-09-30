@@ -10,15 +10,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int pilihan;
-        
-        Pembantu pembantu = new Pembantu("Sistem Pengelolaan Tugas Harian", "v1.0", "Tim Pengembang");
+
+        Pembantu pembantu = new Pembantu("Sistem Pengelolaan Tugas Harian", "v1.0", "Rofif 2309116029");
 
         do {
             pembantu.cetakJudul();
             System.out.println("1. Tambah Tugas");
             System.out.println("2. Lihat Tugas");
-            System.out.println("3. Hapus Tugas");
-            System.out.println("4. Keluar");
+            System.out.println("3. Update Tugas");
+            System.out.println("4. Hapus Tugas");
+            System.out.println("5. Keluar");
             System.out.print("Pilih: ");
             pilihan = scanner.nextInt();
 
@@ -30,15 +31,18 @@ public class Main {
                     lihatTugas();
                     break;
                 case 3:
-                    hapusTugas(scanner);
+                    updateTugas(scanner);
                     break;
                 case 4:
+                    hapusTugas(scanner);
+                    break;
+                case 5:
                     Pembantu.tampilkanPesanKeluar();
                     break;
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        } while (pilihan != 4);
+        } while (pilihan != 5);
     }
 
     private static void tambahTugas(Scanner scanner) {
@@ -66,7 +70,40 @@ public class Main {
         }
     }
 
-    private static void hapusTugas(Scanner scanner) {
+    private static void updateTugas(Scanner scanner) {
+        lihatTugas();
+        if (!daftarTugas.isEmpty()) {
+            System.out.print("Masukkan ID tugas yang akan di-update: ");
+            int id = scanner.nextInt();
+            
+            Tugas tugasUntukDiupdate = null;
+            for (Tugas tugas : daftarTugas) {
+                if (tugas.getId() == id) {
+                    tugasUntukDiupdate = tugas;
+                    break;
+                }
+            }
+
+            if (tugasUntukDiupdate != null) {
+                System.out.print("Masukkan nama baru tugas: ");
+                String namaBaru = scanner.next();
+                System.out.print("Masukkan deskripsi baru tugas: ");
+                String deskripsiBaru = scanner.next();
+                System.out.print("Masukkan prioritas baru tugas (1-5): ");
+                int prioritasBaru = scanner.nextInt();
+
+                tugasUntukDiupdate.setNama(namaBaru);
+                tugasUntukDiupdate.setDeskripsi(deskripsiBaru);
+                tugasUntukDiupdate.setPrioritas(prioritasBaru);
+
+                System.out.println("Tugas dengan ID " + id + " berhasil di-update.");
+            } else {
+                System.out.println("ID tugas tidak valid.");
+            }
+        }
+    }
+    
+        private static void hapusTugas(Scanner scanner) {
         lihatTugas();
         if (!daftarTugas.isEmpty()) {
             System.out.print("Masukkan ID tugas yang akan dihapus: ");
