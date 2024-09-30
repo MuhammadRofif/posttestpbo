@@ -69,7 +69,7 @@ src/
    
 5. **Keluar dari Program**:
    
-   Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan "Terima kasih telah menggunakan sistem".
+   Pilih opsi **5. Keluar** untuk menutup program. Program akan menampilkan pesan "Terima kasih telah menggunakan sistem".
 
    ![image](https://github.com/user-attachments/assets/8344f009-644a-4e40-96f5-e56c986edc91)
 
