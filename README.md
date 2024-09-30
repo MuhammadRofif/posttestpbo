@@ -6,6 +6,7 @@ Program ini adalah program sederhana berbasis Java yang digunakan untuk mengelol
 
 - **Tambah Tugas**: Pengguna dapat menambahkan tugas baru dengan informasi seperti nama, deskripsi, dan prioritas tugas.
 - **Lihat Tugas**: Menampilkan semua tugas yang telah ditambahkan, dengan informasi ID, nama, deskripsi, dan prioritas.
+- **Update Tugas**: Pengguna dapat memperbarui tugas dengan informasi seperti nama, deskripsi, dan prioritas tugas.
 - **Hapus Tugas**: Menghapus tugas berdasarkan ID yang dimasukkan oleh pengguna.
 - **Pesan Keluar**: Menampilkan pesan keluar saat program dihentikan.
 
@@ -50,13 +51,17 @@ src/
 
    ![image](https://github.com/user-attachments/assets/a310e89d-0bbf-4a95-863a-0d922cf3d3b4)
    
-3. **Menghapus Tugas**:
+3. **Memperbarui Tugas**
+   Pilih opsi **3. Update Tugas** untuk menambahkan tugas baru. Pengguna akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
+   ![image](https://github.com/user-attachments/assets/e5cb2334-7f7a-4d62-ab08-4a3d333ac781)
+   
+4. **Menghapus Tugas**:
    
    Pilih opsi **3. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Pengguna akan diminta memasukkan ID tugas yang ingin dihapus.
 
    ![image](https://github.com/user-attachments/assets/61238c8b-0bf4-49f8-9ee2-199ad96ed1d7)
    
-4. **Keluar dari Program**:
+5. **Keluar dari Program**:
    
    Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan "Terima kasih telah menggunakan sistem".
 
