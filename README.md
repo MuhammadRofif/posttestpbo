@@ -32,8 +32,8 @@ src/
 
    **Tampilan Menu Utama**
    
-   ![image](https://github.com/user-attachments/assets/8efbd7cf-7907-4f48-8f43-ef15e45341b2) 
-   
+![image](https://github.com/user-attachments/assets/961c3ceb-9655-4b4e-a646-87241f1e5819)
+
 1. **Menambah Tugas**
    Pilih opsi **1. Tambah Tugas** untuk menambahkan tugas baru. Pengguna akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
 
@@ -43,29 +43,36 @@ src/
    - Prioritas 4: Cukup mendesak, sebaiknya segera diselesaikan.
    - Prioritas 5: Paling mendesak, harus diutamakan.
      
-   ![image](https://github.com/user-attachments/assets/9c044d33-9d11-402c-a174-dd4706c6959f)
+   ![image](https://github.com/user-attachments/assets/0166959c-a958-4282-8950-35e683c40230)
+
    
 2. **Melihat Tugas**:
    
    Pilih opsi **2. Lihat Tugas** untuk melihat daftar tugas yang telah ditambahkan. Setiap tugas akan ditampilkan dengan informasi ID, nama, deskripsi, dan prioritas.
 
-   ![image](https://github.com/user-attachments/assets/a310e89d-0bbf-4a95-863a-0d922cf3d3b4)
+   ![image](https://github.com/user-attachments/assets/668afd82-75a5-4e06-b94d-99cde6f41bba)
+
    
 3. **Memperbarui Tugas**
-   Pilih opsi **3. Update Tugas** untuk menambahkan tugas baru. Pengguna akan diminta memasukkan nama tugas, deskripsi, dan prioritas tugas (1-5).
-   ![image](https://github.com/user-attachments/assets/e5cb2334-7f7a-4d62-ab08-4a3d333ac781)
+   Pilih opsi **3. Update Tugas** untuk memperbarui tugas, daftar tugas akan ditampilkan terlebih dahulu, lalu Pengguna akan diminta memasukan id yang mau diganti, setelah itu pengguna 
+   diminta memasukkan nama tugas baru, deskripsi, dan prioritas tugas (1-5).
+
+   ![image](https://github.com/user-attachments/assets/d5c319be-3210-47ad-8aa9-27b666f72273)
+
    
 4. **Menghapus Tugas**:
    
-   Pilih opsi **3. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Pengguna akan diminta memasukkan ID tugas yang ingin dihapus.
+   Pilih opsi **4. Hapus Tugas** untuk menghapus tugas berdasarkan ID. Daftar tugas akan ditampilkan terlebih dahulu, lalu Pengguna akan diminta memasukkan ID tugas yang ingin dihapus.
 
-   ![image](https://github.com/user-attachments/assets/61238c8b-0bf4-49f8-9ee2-199ad96ed1d7)
+   ![image](https://github.com/user-attachments/assets/2df44da8-975c-4a7e-821c-9240d24b78de)
+
    
 5. **Keluar dari Program**:
    
    Pilih opsi **4. Keluar** untuk menutup program. Program akan menampilkan pesan "Terima kasih telah menggunakan sistem".
 
-   ![image](https://github.com/user-attachments/assets/87ed1d98-6b1b-4132-9cc0-fab24f7ec358)
+   ![image](https://github.com/user-attachments/assets/8344f009-644a-4e40-96f5-e56c986edc91)
+
 
 
 ## Class dan Fungsionalitas
